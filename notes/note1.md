@@ -63,11 +63,6 @@ mkdir -p /macbook/user/projects/project.loc/app
 sudo mount -t nfs -o resvport,rw 192.168.1.100:/home/user/docker-projects/project.loc/app /macbook/user/projects/project.loc/app
 ```
 
-### 2.4. Проверка
-```bash
-ls /macbook/user/projects/project.loc/app
-```
-
 ---
 
 ## 🔄 Автомонтирование (MacBook)
